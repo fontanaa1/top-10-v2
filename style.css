@@ -31,3 +31,11 @@ h3 {
     color: #333;
     line-height: 1.6;
 }
+
+/* Texto em linha corrente (padrão) */
+p {
+    display: inline;
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+}
