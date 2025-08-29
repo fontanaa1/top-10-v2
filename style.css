@@ -25,7 +25,7 @@ img {
 }
 
 /* Texto em linha corrente (padrão) */
-p {
+h3 {
     display: inline;
     font-size: 18px;
     color: #333;
