@@ -1,20 +1,22 @@
-/* Importa a fonte Roboto do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-    background-color: #ffe6f0; /* Rosa clarinho */
+    background-color: #ffe6f0; /* Fundo rosa clarinho */
     font-family: 'Roboto', sans-serif;
-    margin: 0;
+    margin: 40px; /* Margem geral ao redor do conteúdo */
     padding: 0;
-    text-align: center; /* Centraliza o texto */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
+    text-align: center;
 }
 
-/* Centraliza e limita largura das imagens */
+/* Estilo do título */
+h1 {
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Imagens centralizadas */
 img {
     display: block;
     margin: 20px auto;
@@ -22,7 +24,7 @@ img {
     height: auto;
 }
 
-/* Parágrafos com texto em linha corrente (padrão) */
+/* Texto em linha corrente (padrão) */
 p {
     display: inline;
     font-size: 18px;
